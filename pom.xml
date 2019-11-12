@@ -8,7 +8,7 @@
         <version>2.2.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.WisdomCommunity</groupId>
+    <groupId>com.wisdomCommunityBase</groupId>
     <artifactId>base-obj</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>base-obj</name>
@@ -58,13 +58,11 @@
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>1.1.10</version>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-
     </dependencies>
 
     <build>
